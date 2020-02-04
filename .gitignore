@@ -1,0 +1,28 @@
+# Ignore files in the Unix distribution
+*.o
+*.out
+*.a
+*.swp
+bin/siteresponse
+lib/*
+bin/*
+test/*
+.vscode/*
+
+# Ignore files in the Windows distribution
+VS/.vs
+*.exe
+*.ilk
+*.pdb
+*.user
+*.tlog
+*.obj
+*.idb
+SiteResponse.log
+VS/lib/release/ifconsol.lib
+VS/lib/release/libdecimal.lib
+VS/lib/release/libifcoremt.lib
+VS/lib/release/libifport.lib
+VS/lib/release/libirc.lib
+VS/lib/release/libmmt.lib
+VS/lib/release/svml_dispmt.lib
